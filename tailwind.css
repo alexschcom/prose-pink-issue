@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@utility prose-pink {
+	--tw-prose-links: hotpink;
+
+	/* remove one of these lines to make it work */
+	--tw-prose-counters: hotpink;
+	--tw-prose-bullets: hotpink;
+}
+
+@utility prose-mycolor {
+	--tw-prose-links: hotpink;
+	--tw-prose-counters: hotpink;
+	--tw-prose-bullets: hotpink;
+}
